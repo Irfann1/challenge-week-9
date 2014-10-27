@@ -4,7 +4,7 @@ Irfan Nadiadi
 
 # How many points have you earned?
 
-0/100
+100/100
 
 (Make your own calculation and replace the number 0 with the points you think you've earned.)
 
@@ -24,11 +24,11 @@ fill-in-your-answer
 
 ## Link (2 points)
 
-[title-of-the-article](http://link-to-an-article-about-machine-learning-use-for-big-data)
+[Spotify's Secret Weapon](http://www.thembj.org/2014/10/spotifys-secret-weapon/)
 
 ## Discuss how you may apply the machine learning technique mentioned in this article to another interesting problem (6 points).
 
-fill-in-your-answer
+This article describes Spotify's acquisition of The Echo Nest, a company that specializes in music intelligence. Their software combs massive amounts of data online, nearly anything pertaining to music, and uses the data to enhance its own ability at predicting music listening behaviors. Such predictions are very valuable for users, as they're going to be more satisfied when the software continues to find music that they're grooving to. Considering how much data is available online, it is interesting to see how valuable such novel data applications can really be. The Echo Nest makes it so that users no longer have to go searching for music they feel like listening to. Rather, the software predicts for them. This begs the question, are there other ways data can be used to enhance people's lives in ways that similar to this one?
 
 # D3 IV
 
@@ -82,11 +82,11 @@ fill-in-your-answer
 
 ### 1 (6 points)
 
-[mongodb js code collecting github events about our course](mongodb-github.js)
+[mongodb js code collecting github events about our course](mongo/mongodb-github.js)
 
 ### 2 (6 points)
 
-![terminal output of mongodb query](screenshot.png?raw=true)
+![terminal output of mongodb query](mongo/checkpoints/check2.png)
 
 ## Challenge 1 (4 points x 10 = 40 points)
 
@@ -94,61 +94,61 @@ fill-in-your-answer
 
 > db.course_events.findOne({'actor.login':'Irfann1'})
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](mongo/challenges/1.png)
 
 ### 2 (4 points)
 
 > db.course_events.findOne({'actor.login':'Irfann1'},{'actor':'1'})
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](mongo/challenges/2.png)
 
 ### 3 (4 points)
 
 > db.course_events.find({'actor.login' : { $in : ['doubleshow', 'chrisbopp']}}, {'actor.login':1, created_at:1})
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](mongo/challenges/3.png)
 
 ### 4 (4 points)
 
 > db.course_events.findOne({'type' : 'PushEvent'})
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](mongo/challenges/4.png)
 
 ### 5 (4 points)
 
 > db.course_events.find({'type' :'PushEvent'}, {'payload.commits.author.name':1})
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](mongo/challenges/5.png?raw=true)
 
 ### 6 (4 points)
 
 > db.course_events.findOne({'type' :'IssuesEvent'}, {'payload':1})
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](mongo/challenges/6.pngraw=true)
 
 ### 7 (4 points)
 
 > db.course_events.find({'type' :'IssuesEvent'}, {'payload.issue.user.login':1})
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](mongo/challenges/7png?raw=true)
 
 ### 8 (4 points)
 
 > db.course_events.find({'type' :'IssuesEvent', 'payload.issue.state': 'closed'}, {'payload.issue.id':1, 'payload.issue.state':1})
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](mongo/challenges/8.png?raw=true)
 
 ### 9 (4 points)
 
 > db.course_events.find({'type' :'IssuesEvent', 'payload.issue.state': 'open'}, {'payload.issue.user.login':1, 'payload.issue.state':1})
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](mongo/challenges/9.png?raw=true)
 
 ### 10 (4 points)
 
 > db.course_events.find({'type' :'IssuesEvent', 'payload.issue.comments' : {$gt : 0}}, {'payload.issue.user.login':1, 'payload.issue.comments':1})
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](mongo/challenges/10.png?raw=true)
 
 
 ## Challenge 2 (8 points x 2 = 16 points) 
@@ -159,7 +159,7 @@ What does a pull request look like?
 
 > db.course_events.fineOne({'type':'PullRequestEvent' });
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](mongo/challenges/challenge\ 2a.png?raw=true)
 
 ### 2 (8 points)
 
@@ -167,4 +167,4 @@ Who was the most recent person to create a pull request?
 
 > db.course_events.find({'type':'PullRequestEvent','payload.action':'opened'},{'actor.login':1,'payload.pull_request.created_at':1}).sort({'payload.pull_request.created_at':-1})
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](mongo/challenges/challenge\ 2b.png?raw=true)
