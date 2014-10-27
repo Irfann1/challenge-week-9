@@ -66,11 +66,11 @@ fill-in-your-answer
 
 # 2. (4 points)
 
-![image](challenge2.png)
+![image](challenges/challenge2.png)
 
 # 3. (4 points)
 
-![image](challenge3.png)
+![image](challenges/challenge3.png)
 
 [challenge3](challenge3.html)
 
