@@ -1,6 +1,6 @@
 # Name
 
-write-your-name
+Irfan Nadiadi
 
 # How many points have you earned?
 
@@ -14,7 +14,7 @@ fill-in-your-answer
 
 # When did you first start working on this week's learning challenges?
 
-fill-in-your-answer
+Sunday Evening. Sorry, my Senior Design project has been getting the best of me.
 
 # What is the most difficult part about this week's challenge?
 
@@ -36,41 +36,41 @@ fill-in-your-answer
 
 # 1. (3 points)
 
-![image](image.png?raw=true)
+![image](checkpoints/check1.png)
 
-[checkpoint](checkpoint.html)
+[checkpoint](check1.html)
 
 # 2. (3 points)
 
-![image](image.png?raw=true)
+![image](checkpoints/check2.png)
 
-[checkpoint](checkpoint.html)
+[checkpoint](check2.html)
 
 # 3. (3 points)
 
-![image](image.png?raw=true)
+![image](checkpoints/check3.png)
 
-[checkpoint](checkpoint.html)
+[checkpoint](check3.html)
 
 # 4. (3 points)
 
-![image](image.png?raw=true)
+![image](checkpoints/check4.png)
 
-[checkpoint](checkpoint.html)
+[checkpoint](check4.html)
 
 ## Challenges (4 points x 3 = 12 points)
 
 # 1. (4 points)
 
-![image](image.png?raw=true)
+![image](challenges/challenge1.png)
 
 # 2. (4 points)
 
-![image](image.png?raw=true)
+![image](challenge2.png)
 
 # 3. (4 points)
 
-![image](image.png?raw=true)
+![image](challenge3.png)
 
 [challenge3](challenge3.html)
 
