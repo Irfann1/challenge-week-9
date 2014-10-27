@@ -10,7 +10,7 @@ Irfan Nadiadi
 
 # How many hours have you spent on this?
 
-fill-in-your-answer
+4
 
 # When did you first start working on this week's learning challenges?
 
@@ -18,7 +18,7 @@ Sunday Evening. Sorry, my Senior Design project has been getting the best of me.
 
 # What is the most difficult part about this week's challenge?
 
-fill-in-your-answer
+Nothing in particular. Time committment, perhaps, though this challenge was certainly shorter than last weeks.
 
 # Show and tell (8 points)
 
@@ -124,13 +124,13 @@ This article describes Spotify's acquisition of The Echo Nest, a company that sp
 
 > db.course_events.findOne({'type' :'IssuesEvent'}, {'payload':1})
 
-![screenshot](mongo/challenges/6.pngraw=true)
+![screenshot](mongo/challenges/6.png?raw=true)
 
 ### 7 (4 points)
 
 > db.course_events.find({'type' :'IssuesEvent'}, {'payload.issue.user.login':1})
 
-![screenshot](mongo/challenges/7png?raw=true)
+![screenshot](mongo/challenges/7.png?raw=true)
 
 ### 8 (4 points)
 
